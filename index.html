@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+     <title>Rakworld</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <title>Sticky Fixed Circle Logo</title>
+    <title>images in a row</title>
+    <title>my video</title>
+     
+    <style>
+          *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        
+        body::before{
+            position: absolute;
+            width: min(1400px, 90vw);
+            top: 10%;
+            left: 50%;
+            height: 90%;
+            transform: translateX(-50%);
+            content: '';
+            background-image: url(images/bg.png);
+            background-size: 100%;
+            background-repeat: no-repeat;
+            background-position: top center;
+            pointer-events: none;
+        }
+        /* Basic Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body Styling */
+        body {
+            font-family: Arial, sans-serif;
+            height: 2000px; /* Added height for scrolling effect */
+            background-color: #f4f4f4;
+            padding-top: 50px;
+        }
+
+        /* Sticky Circle Logo */
+        .sticky-logo {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            width: 100px;
+            height: 100px;
+            background-color: #ff6347; /* Tomato color for a unique look */
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 36px;
+            font-weight: bold;
+            text-transform: uppercase;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            z-index: 1000;
+            transition: background-color 0.3s ease;
+        }
+
+        /* Hover Effect */
+        .sticky-logo:hover {
+            background-color: #ff4500; /* Darker shade of tomato for hover effect */
+            cursor: pointer;
+        }
+
+        /* Page Content */
+        .content {
+            margin-top: 0px; /* Space for the logo */
+            padding: 0px;
+            text-align: center;
+        }
+
+        .content h1 {
+            font-size: 2rem;
+            color: #333;
+        }
+
+        .content p {
+            font-size: 1.2rem;
+            color: #555;
+        }
+    </style>
+     
+
+</head>
+<body>
+   <a href="https://www.instagram.com/pipparirakshith/profilecard/?igsh=bHB6bW5kcDVqaTJz">
+ <!-- Sticky Circle Logo Section -->
+ <div class="sticky-logo">
+   RAK
+</div>
+   </a>
+<!-- Page Content -->
+<div class="content">
+   <h1>Welcome to RAK WORLD</h1>
+   <p>the place of awaken knowledge</p>
+</div>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to the Rakworld!!</h1>
+        <p>Welcome to Rak, an adventurous realm filled with mysteries! Dive deep into the Crystal Caves to uncover radiant treasures guarded by ancient spirits.<hr><br> Soar high to the Floating Isles, home to the wind-wielding Aeromancers. Wander the Enchanted Forest with its whispering trees and magical creatures. Plunge into the Sunken Ruins of Atlantara, teeming with underwater secrets. Traverse the Desert of Echoes, where the sands reveal hidden oases and forgotten tombs. Lastly, explore the Great Beyond, a portal to endless dimensions and adventures. .</p>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="banner">
+        <div class="slider" style="--quantity: 10">
+            <div class="item" style="--position: 1"><img src=" https://res.cloudinary.com/dbnx1enhn/image/upload/v1731591090/model_mhktlv.png" alt=""></div>
+            <div class="item" style="--position: 2"><img src=" https://res.cloudinary.com/dbnx1enhn/image/upload/v1731590449/dragon_1_wpm0wc.jpg" alt=""></div>
+            <div class="item" style="--position: 3"><img src="https://res.cloudinary.com/dbnx1enhn/image/upload/v1731590195/dragon_3_mte0xq.jpg" alt=""></div>
+            <div class="item" style="--position: 4"><img src=" https://res.cloudinary.com/dbnx1enhn/image/upload/v1731590663/dragon_4_xdtnuc.jpg" alt=""></div>
+            <div class="item" style="--position: 5"><img src=" https://res.cloudinary.com/dbnx1enhn/image/upload/v1731590702/dragon_7_zl8yur.jpg" alt=""></div>
+            <div class="item" style="--position: 6"><img src="https://res.cloudinary.com/dbnx1enhn/image/upload/v1731590244/dragon_6_chsieb.jpg" alt=""></div>
+            <div class="item" style="--position: 7"><img src=" https://res.cloudinary.com/dbnx1enhn/image/upload/v1731590744/dragon_5_cawnhk.jpg" alt=""></div>
+            <div class="item" style="--position: 8"><img src=" https://res.cloudinary.com/dbnx1enhn/image/upload/v1731590276/dragon_8_iqdbeg.jpg" alt=""></div>
+            <div class="item" style="--position: 9"><img src=" https://res.cloudinary.com/dbnx1enhn/image/upload/v1731590399/dragon_9_hgndc5.jpg" alt=""></div>
+            <div class="item" style="--position: 10"><img src=" https://res.cloudinary.com/dbnx1enhn/image/upload/v1731590318/dragon_10_pcjfhk.jpg" alt=""></div>
+        </div>
+        
+        <div class="content">
+            <h1 data-content="RAK WORLD">
+                 
+            </h1>
+            <div class="author">
+                <h2>RAK WORLD</h2>
+                <p><b>Web Design</b></p>
+                <p>
+                    Uleash your true power with in yourself
+                </p>
+            </div>
+         
+            <div class="model"></div>
+        </div>
+    </div>
+     <!-- About Section -->
+     <section id="about">
+      <h2>About Us</h2>
+      <p>We are passionate about bringing imagination to life with unique illustrations and designs that captivate and inspire. Our team is dedicated to creating vibrant, whimsical visuals that stand out.</p>
+  </section>
+
+  <!-- Gallery Section -->
+  <section id="gallery">
+      <h2>Illustration Gallery</h2>
+      <div class="gallery-row">
+          <div class="gallery-item">
+              <h3>Project 1</h3>
+              <p>A charming landscape illustration that brings nature to life.</p>
+              <img src="https://th.bing.com/th/id/OIP.GvntOdvz80txbfbW4rz2kAHaEo?w=278&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7">
+               
+          </div>
+          <div class="gallery-item">
+              <h3>Project 2</h3>
+              <p>An urban scene captured with a playful color palette.</p>
+              <img src=" https://th.bing.com/th/id/OIP.AA81eqOZ3IZyhwlmajAbPwHaEo?w=283&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7">
+              
+              
+          </div>
+          <div class="gallery-item">
+              <h3>Project 3</h3>
+              <p>A magical, storybook-inspired scene filled with wonder.</p>
+              <img src="https://th.bing.com/th/id/OIP.0nHgDeiAKUOEer33mMBf4gHaE5?w=276&h=183&c=7&r=0&o=5&dpr=1.3&pid=1.7">
+          </div>
+      </div>
+  </section>
+   
+   
+ 
+ 
+  <br>
+  <div class="our-container">
+   <h1>Our Partners</h1>
+   <h2>nirajan & goutham</h2>
+   <p1>niranjan & goutham</p1>
+   <p2>The Enigmatic Artist:  Niranjan &  Goutham                                  
+      M. Niranjan, often hailed as one of the most gifted artists of his generation, stands as a beacon of creativity and inspiration in the world of arts and drawings. His journey from a curious child with a penchant for doodling to an accomplished artist is nothing short of extraordinary.<hr><br>
+      <div class="image-row">
+      <img src="  https://scontent.fhyd16-1.fna.fbcdn.net/v/t39.30808-6/466682684_1241849797026172_7528875061146975846_n.jpg?stp=cp6_dst-jpg&_nc_cat=100&ccb=1-7&_nc_sid=833d8c&_nc_ohc=gQenIeyF6zsQ7kNvgFhCvDk&_nc_zt=23&_nc_ht=scontent.fhyd16-1.fna&_nc_gid=A6uKHmDdRHHvRAjtnc4mGLL&oh=00_AYB5TM0rBcbymMlvuY6MYRrr-arWUAIA0sn9fHy47D-Sqw&oe=673CBBCA" alt="logo here" width="400" height="400">
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+
+      <img src="https://scontent.fhyd16-1.fna.fbcdn.net/v/t39.30808-6/467019815_1241854520359033_6490699548525319443_n.jpg?stp=cp6_dst-jpg&_nc_cat=101&ccb=1-7&_nc_sid=833d8c&_nc_ohc=MMjifU8VRz0Q7kNvgEXC7_a&_nc_zt=23&_nc_ht=scontent.fhyd16-1.fna&_nc_gid=AmcFRX54RwLDNsII6VUIjcx&oh=00_AYC7pVxsdbA0MCFMHpkML1Dlk-2Dpo-4De91KMnnfKkdiA&oe=673CDC59" alt="" width="400 " height="400">
+      <br>
+      </div>
+      <br>
+
+
+      
+      <a href="https://www.instagram.com/niranjan__chinna?igsh=MWs3N2VuZGUzYzFzdg==" target="_blank">
+         <i class="fab fa-instagram"></i>
+       </a>
+       </div>
+      
+       <br>
+      Early Life and Inspiration: Born into a family that nurtured creativity, Niranjan's early life was filled with colors and canvases. His parents, recognizing his natural talent, encouraged him to explore various forms of art. This early exposure laid the foundation for his artistic journey. From a young age, Niranjan was captivated by the world around him, and he would often translate his observations into sketches and paintings. His keen eye for detail and an innate ability to capture the essence of his subjects set him apart from his peers.
+      
+      Educational Pursuits: As he grew older, Niranjan's passion for art led him to pursue formal education in the field. He enrolled in a prestigious art school, where he honed his skills under the guidance of renowned mentors. Here, he experimented with different mediums and techniques, ranging from watercolors to charcoal sketches. His dedication and relentless pursuit of perfection earned him accolades and recognition within the academic community.
+      
+      Artistic Style and Achievements: Niranjan's art is characterized by a unique blend of realism and abstract expressionism. His works often feature intricate details, vibrant colors, and a deep emotional resonance. He has a remarkable ability to convey complex emotions through his art, making his pieces not just visually appealing but also thought-provoking. Over the years, Niranjan has participated in numerous exhibitions, both nationally and internationally. His artworks have been showcased in some of the most esteemed galleries, earning him a dedicated following of admirers and collectors.
+      
+      Impact and Legacy: Beyond his technical prowess, Niranjan is known for his commitment to using art as a medium for social change. He believes in the transformative power of art and often addresses pressing social issues through his work. His pieces on environmental conservation, human rights, and cultural heritage have sparked important conversations and inspired many to take action. Furthermore, Niranjan is a firm believer in giving back to the community. He regularly conducts workshops and mentoring sessions for aspiring artists, sharing his knowledge and encouraging the next generation of creative minds.
+      
+      Personal Philosophy: For Niranjan, art is not just a profession but a way of life. He views each blank canvas as an opportunity to explore new ideas, push boundaries, and create something meaningful. His artistic journey is a testament to the power of perseverance, passion, and the endless possibilities that come with following one's dreams.
+      
+      Conclusion: M. Niranjan's story is a shining example of what can be achieved with dedication, talent, and a deep love for one's craft. His contributions to the world of art are immense, and his legacy continues to inspire and influence many. As an artist, mentor, and visionary, Niranjan remains a significant figure in the art world, leaving an indelible mark on all who encounter his work.</p2>
+
+  </div>
+  <br>
+  <h1>Watch My Video</h1>
+
+    <!-- Video embedding -->
+    <video width="640" height="360" controls>
+        <source src="https://res.cloudinary.com/dbnx1enhn/video/upload/v1731596717/WhatsApp_Video_2024-11-14_at_20.31.00_d6756243_eprfoa.mp4" type="video/mp4">
+         
+    </video>
+
+  <div class="image-row">
+   <img src=" https://scontent.fhyd16-1.fna.fbcdn.net/v/t39.30808-6/466786273_1241835937027558_4664933530524860008_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=833d8c&_nc_ohc=--ro_yCsD3EQ7kNvgFRIDCl&_nc_zt=23&_nc_ht=scontent.fhyd16-1.fna&_nc_gid=A4pTbYRpeWOZhiZ1W82Elin&oh=00_AYC18O4x3avrnwj4tXk1uM810J46LTIP1x7NUIcvN0fMCA&oe=673CD388" alt="Image 1">
+   
+   <img src="  https://scontent.fhyd16-1.fna.fbcdn.net/v/t39.30808-6/466874413_1241840703693748_7514999847812066053_n.jpg?stp=cp6_dst-jpg&_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_ohc=8VhMdRmYQggQ7kNvgFUO_3o&_nc_zt=23&_nc_ht=scontent.fhyd16-1.fna&_nc_gid=AeedRGJIaFiRXd3gluadsXo&oh=00_AYDhYM5_rEFjUwvNB1KBz-StpyOjVl62go7l7XFtA-6LtA&oe=673CE438 " alt="Image 2">
+   <img src="  https://scontent.fhyd16-1.fna.fbcdn.net/v/t39.30808-6/467022434_1241843200360165_6114145689700443030_n.jpg?stp=cp6_dst-jpg&_nc_cat=111&ccb=1-7&_nc_sid=833d8c&_nc_ohc=gQHHc1zN5agQ7kNvgH0aqCd&_nc_zt=23&_nc_ht=scontent.fhyd16-1.fna&_nc_gid=A4cQvo_HUx1WCnm1DE3wygi&oh=00_AYCbkkBzETP6fAFWcitmdeSAFf8WuQ1PqNC-VHvxRUrLxg&oe=673CCB4A" alt="Image 3">
+   <!-- Add more images as needed -->
+</div>
+ 
+
+  <!-- Services Section -->
+  <section id="services">
+      <h2>Our Services</h2>
+      <div class="services-list">
+          <div class="service-item">
+              <h3>Custom Illustrations</h3>
+              <p>We create unique, hand-drawn illustrations tailored to your needs.</p>
+            </div>
+            <div class="service-item">
+                <h3>Branding and Design</h3>
+                <p>We design logos, mascots, and brand elements that stand out.</p>
+            </div>
+            <div class="service-item">
+                <h3>Art for Publications</h3>
+                <p>We provide beautiful artwork for books, magazines, and digital content.</p>
+            </div>
+        </div>
+    </section>
+    <br>
+    <header>
+        <h1>Our Vision & Goals</h1>
+        <p>We strive for excellence in the following key areas:</p>
+    </header>
+    
+    <section id="cost-efficiency">
+        <h2>1. Cost Efficiency</h2>
+        <p>Our goal is to continually improve cost efficiency by optimizing our processes, reducing waste, and leveraging technology to create cost-effective solutions. We aim to offer high-quality products at competitive prices without compromising on service.</p>
+    </section>
+    
+    <section id="development">
+        <h2>2. Development</h2>
+        <p>We are committed to continuous development by innovating new products, improving existing solutions, and staying ahead of industry trends. Our development strategy focuses on research, design, and creating sustainable growth opportunities for our clients and teams.</p>
+    </section>
+
+    <section id="establishments">
+        <h2>3. Establishments in Different Countries</h2>
+        <p>We aim to expand our presence globally by establishing branches in key markets around the world. By doing so, we seek to bring our solutions to a broader audience and forge strong international partnerships to grow our business.</p>
+    </section>
+
+</header>
+ <!-- Contact Section -->
+ <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Have a project in mind? Let's bring it to life!</p>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <button type="submit">Send Message</button>
+    </form>
+</section>
+<!-- Footer -->
+<footer>
+  <p>&copy; 2024 This Website. All rights reserved.</p>
+</footer> 
+</body>
+<script>
+   // Smooth Scroll for Navigation Links
+   document.querySelectorAll('nav a').forEach(anchor => {
+       anchor.addEventListener('click', function (e) {
+           e.preventDefault();
+   
+           const targetId = this.getAttribute('href').substring(1); // Get the target section ID
+           const targetElement = document.getElementById(targetId);
+   
+           window.scrollTo({
+               top: targetElement.offsetTop - 50, // Offset to account for fixed nav if needed
+               behavior: 'smooth',
+           });
+       });
+   });
+   
+   // Scroll Animation (Fade-in effect)
+   window.addEventListener('scroll', () => {
+       const sections = document.querySelectorAll('section');
+       sections.forEach(section => {
+           const sectionTop = section.getBoundingClientRect().top;
+           const windowHeight = window.innerHeight;
+   
+           if (sectionTop <= windowHeight * 0.8) { // Trigger animation when 80% of section is in view
+               section.style.opacity = 1;
+               section.style.transform = 'translateY(0)';
+           } else {
+               section.style.opacity = 0;
+               section.style.transform = 'translateY(30px)';
+           }
+       });
+   });
+   
+
+// Smooth Scroll for Navigation Links
+document.querySelectorAll('nav a').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        const targetId = this.getAttribute('href').substring(1); // Get the target section ID
+        const targetElement = document.getElementById(targetId);
+
+        window.scrollTo({
+            top: targetElement.offsetTop - 50, // Offset to account for fixed nav if needed
+            behavior: 'smooth',
+        });
+    });
+});
+
+// Scroll Animation (Fade-in effect)
+window.addEventListener('scroll', () => {
+    const sections = document.querySelectorAll('section');
+    sections.forEach(section => {
+        const sectionTop = section.getBoundingClientRect().top;
+        const windowHeight = window.innerHeight;
+
+        if (sectionTop <= windowHeight * 0.8) { // Trigger animation when 80% of section is in view
+            section.style.opacity = 1;
+            section.style.transform = 'translateY(0)';
+        } else {
+            section.style.opacity = 0;
+            section.style.transform = 'translateY(30px)';
+        }
+    });
+});
+
+// Form Validation (example for a contact form)
+const form = document.querySelector('form');
+form.addEventListener('submit', function (e) {
+    const name = document.querySelector('#name');
+    const email = document.querySelector('#email');
+    const message = document.querySelector('#message');
+
+    if (!name.value || !email.value || !message.value) {
+        e.preventDefault(); // Prevent form submission if validation fails
+        alert('Please fill in all the fields!');
+   }
+});
+// 1. Interactive Image Gallery with Lightbox
+const galleryItems = document.querySelectorAll('.gallery-item img');
+const lightbox = document.createElement('div');
+lightbox.classList.add('lightbox');
+const lightboxImg = document.createElement('img');
+lightbox.appendChild(lightboxImg);
+document.body.appendChild(lightbox);
+
+// Open lightbox when clicking on an image
+galleryItems.forEach(item => {
+    item.addEventListener('click', () => {
+        lightboxImg.src = item.src;
+        lightbox.style.display = 'flex'; // Show the lightbox
+    });
+});
+
+// Close lightbox when clicking outside the image
+lightbox.addEventListener('click', (e) => {
+    if (e.target === lightbox) {
+        lightbox.style.display = 'none'; // Hide the lightbox
+    }
+});
+
+// 2. Scroll-to-Top Button
+const scrollTopButton = document.createElement('button');
+scrollTopButton.textContent = '↑';
+scrollTopButton.classList.add('scroll-to-top');
+document.body.appendChild(scrollTopButton);
+// 2. Scroll-to-Top Button
+const scrollTopButton = document.createElement('button');
+scrollTopButton.textContent = '↑';
+scrollTopButton.classList.add('scroll-to-top');
+document.body.appendChild(scrollTopButton);
+
+// Show/hide the button based on scroll position
+window.addEventListener('scroll', () => {
+    if (window.scrollY > 500) {
+        scrollTopButton.style.display = 'block';
+    } else {
+        scrollTopButton.style.display = 'none';
+    }
+});
+
+// Scroll to top when the button is clicked
+scrollTopButton.addEventListener('click', () => {
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    });
+});
+
+// 3. Sticky Navigation Bar
+const nav = document.querySelector('nav');
+const navOffset = nav.offsetTop;
+
+window.addEventListener('scroll', () => {
+    if (window.scrollY > navOffset) {
+        nav.classList.add('sticky');
+      } else {
+        nav.classList.remove('sticky');
+    }
+});
+
+// 4. Text Typewriter Effect
+const typewriterText = document.querySelector('.typewriter');
+const textToType = 'Welcome to My Awesome Website!';
+let currentChar = 0;
+
+function type() {
+    if (currentChar < textToType.length) {
+        typewriterText.textContent += textToType.charAt(currentChar);
+        currentChar++;
+        setTimeout(type, 100);
+    }
+}
+
+window.onload = type; // Start typing effect when the page loads
+
+// 5. Preloader Animation
+const preloader = document.createElement('div');
+preloader.classList.add('preloader');
+document.body.appendChild(preloader);
+
+// Hide preloader once the page is loaded
+window.addEventListener('load', () => {
+    preloader.style.display = 'none';
+});
+ 
